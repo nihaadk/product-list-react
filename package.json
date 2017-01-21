@@ -1,6 +1,6 @@
 {
-  "name": "My Firsr React App",
-  "version": "1.0",
+  "name": "my-firsr-react-app",
+  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.8.5"
