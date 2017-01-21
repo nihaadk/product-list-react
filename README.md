@@ -1,4 +1,4 @@
-## My First React App
+## Product list - my first react app
 
 I have built an app to add and delete the products in the list.
 
