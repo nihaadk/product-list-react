@@ -38,7 +38,7 @@ export default class App extends React.Component {
 
         <AddProductForm onProductAdd={this._handlerProductAdd} />
 
-        <button className="Button" onClick={this._handlerRemove.bind(this)}>Remove first</button>
+        <button className="btn btn-danger" onClick={this._handlerRemove.bind(this)}>Remove first</button>
         { this.state.products.map((p,i) => { return <Product {...p} key={p.title} nr={i} /> })}
       </div>
     );

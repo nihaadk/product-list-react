@@ -58,25 +58,26 @@ export default class AddProductForm extends Component {
             <div style={{border: '1px solid grey', padding: '20px', margin: '20px 0 20px 0'}}>
                 <h2>Add Product</h2>
 
-                <p>Titel</p>
-                <input value={this.state.title} onChange={this._handleTitleChange} />
+                
+                <label for="title">Titel</label>
+                <input className="form-control" value={this.state.title} onChange={this._handleTitleChange} />
 
-                <p>Description</p>
-                <input value={this.state.description} onChange={this._handleDescriptionChange} />
+                <label for="description">Description</label>
+                <input className="form-control" value={this.state.description} onChange={this._handleDescriptionChange} />
 
-                <p>Category:</p>
-                <select value={this.state.category} onChange={this._handleCategoryChange} >
+                <label for="category">Category</label>
+                <select className="form-control" value={this.state.category} onChange={this._handleCategoryChange} >
                     <option value="Furniture">Furniture</option>
                     <option value="Electronics">Electronics</option>
                     <option value="Food">Food</option>
                 </select>
 
                 <p></p>
-                <input type="checkbox" value={this.state.watched} onChange={this._handleWatchedChange} />
+                <input className="form-control" type="checkbox" value={this.state.watched} onChange={this._handleWatchedChange} />
                 Watched?
 
                 <p></p>
-                <button onClick={this._handleProductAdd}>Add Product</button>
+                <button className="btn btn-primary" onClick={this._handleProductAdd}>Add Product</button>
 
             </div>
         )

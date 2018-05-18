@@ -56,7 +56,7 @@ export default class Product extends React.Component{
 				<p>{this.props.description}</p>
 				<p>{this.props.category}</p>
 				<p>
-				<button onClick={this._handleWatchClick.bind(this)}>{watched ? 'Unwatch' : 'Watch!'}</button>
+				<button className="btn btn-info" onClick={this._handleWatchClick.bind(this)}>{watched ? 'Unwatch' : 'Watch!'}</button>
 				{watched ? 'You are watching the product' : ''}
 				</p>
 			</div>
