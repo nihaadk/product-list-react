@@ -1,6 +1,6 @@
 # Product list app
 
-With this app add new Prodact and watch only product.
+With this app, can add new Prodact and watch only product.
 
 ### Run the Application
 
