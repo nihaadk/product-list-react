@@ -10,7 +10,7 @@ Install all node_modules
 npm install
 ```
 
-Run on localhost:4200
+Run on localhost:3000
 
 ```
 ng start
